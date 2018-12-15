@@ -6,39 +6,39 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://transdimensional.github.io/categories/blog.xml</loc>
-  <lastmod>2018-12-15T06:18:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/categories/blog.xml</loc>
+  <lastmod>2018-12-15T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://transdimensional.github.io/categories/cat_nikola.xml</loc>
-  <lastmod>2018-12-15T06:18:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/categories/cat_nikola.xml</loc>
+  <lastmod>2018-12-15T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://transdimensional.github.io/categories/demo.xml</loc>
-  <lastmod>2018-12-15T06:18:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/categories/demo.xml</loc>
+  <lastmod>2018-12-15T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://transdimensional.github.io/categories/nikola.xml</loc>
-  <lastmod>2018-12-15T06:18:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/categories/nikola.xml</loc>
+  <lastmod>2018-12-15T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://transdimensional.github.io/categories/python.xml</loc>
-  <lastmod>2018-12-15T06:18:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/categories/python.xml</loc>
+  <lastmod>2018-12-15T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://transdimensional.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2018-12-15T06:49:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/galleries/demo/rss.xml</loc>
+  <lastmod>2018-12-15T16:00:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://transdimensional.github.io/galleries/rss.xml</loc>
-  <lastmod>2018-12-15T06:49:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/galleries/rss.xml</loc>
+  <lastmod>2018-12-15T16:00:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://transdimensional.github.io/rss.xml</loc>
-  <lastmod>2018-12-15T06:18:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/rss.xml</loc>
+  <lastmod>2018-12-15T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://transdimensional.github.io/sitemap.xml</loc>
-  <lastmod>2018-12-15T06:49:00Z</lastmod>
+  <loc>https://transdimensional.netlify.com/sitemap.xml</loc>
+  <lastmod>2018-12-15T16:00:00Z</lastmod>
  </sitemap>
 </sitemapindex>

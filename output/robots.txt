@@ -1,4 +1,4 @@
-Sitemap: https://transdimensional.github.io/sitemapindex.xml
+Sitemap: https://transdimensional.netlify.com/sitemapindex.xml
 
 User-Agent: *
-Host: transdimensional.github.io
+Host: transdimensional.netlify.com
