@@ -965,7 +965,7 @@ COMMENT_SYSTEM = "disqus"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "transdimensional"
 
 # Create index.html for page folders?
 # WARNING: if a page would conflict with the index file (usually
@@ -1340,9 +1340,7 @@ WARN_ABOUT_TAG_METADATA = False
 GLOBAL_CONTEXT = {'blog_sidebar': """\
 <div class="sidebar-module sidebar-module-inset">
   <h4>About</h4>
-  <p>This is the Bootstrap Blog theme by @mdo, adapted for Nikola by @Kwpolska.
-  And this sidebar is completely customizable — you can put anything you want
-  here!</p>
+  <p>This is blog is dedicated to learning efforts for Data Science</p>
 </div>
 <div class="sidebar-module">
   <h4>Links</h4>
