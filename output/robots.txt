@@ -1,0 +1,4 @@
+Sitemap: https://transdimensional.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: transdimensional.github.io
