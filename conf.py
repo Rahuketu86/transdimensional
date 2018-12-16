@@ -137,7 +137,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Home"),
-        ("/archive.html", "Archive"),
+        ("/archive/", "Archive"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
@@ -219,6 +219,7 @@ POSTS = (
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.ipynb", "posts", "post.tmpl"),
     ("posts/*.org", "posts", "post.tmpl")
 )
 PAGES = (
@@ -226,6 +227,7 @@ PAGES = (
     ("pages/*.md", "pages", "page.tmpl"),
     ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.ipynb", "pages", "page.tmpl"),
     ("pages/*.org", "pages", "page.tmpl")
 )
 
@@ -546,7 +548,7 @@ FRONT_INDEX_HEADER = {
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+CREATE_SINGLE_ARCHIVE = True
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
 # CREATE_FULL_ARCHIVES = False
@@ -559,8 +561,8 @@ FRONT_INDEX_HEADER = {
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / DAY / index.html
-# ARCHIVE_PATH = ""
-# ARCHIVE_FILENAME = "archive.html"
+ARCHIVE_PATH = "archive"
+ARCHIVE_FILENAME = "index.html"
 
 # If ARCHIVES_ARE_INDEXES is set to True, each archive page which contains a list
 # of posts will contain the posts themselves. If set to False, it will be just a
@@ -883,7 +885,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -926,7 +928,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}        {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a>        {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1059,10 +1061,10 @@ MathJax.Hub.Config({
 # """
 
 # Do you want to customize the nbconversion of your IPython notebook?
-# IPYNB_CONFIG = {}
+IPYNB_CONFIG = {}
 # With the following example configuration you can use a custom jinja template
 # called `toggle.tpl` which has to be located in your site/blog main folder:
-IPYNB_CONFIG = {'Exporter':{'template_file': 'toggle'}}
+# IPYNB_CONFIG = {'Exporter':{'template_file': 'toggle'}}
 
 # What Markdown extensions to enable?
 # You will also get gist, nikola and podcast because those are
@@ -1198,6 +1200,7 @@ SEARCH_FORM = """
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19744114-2"></script>
 <script>
@@ -1349,21 +1352,21 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-# GLOBAL_CONTEXT = {}
-GLOBAL_CONTEXT = {'blog_sidebar': """\
-<div class="sidebar-module sidebar-module-inset">
-  <h4>About</h4>
-  <p>This is blog is dedicated to learning efforts for Data Science</p>
-</div>
-<div class="sidebar-module">
-  <h4>Links</h4>
-  <ol class="list-unstyled">
-    <li><a href="https://twitter.com/rahuketu86">@rahuketu86</a></li>
-    <li><a href="https://www.linkedin.com/in/rahul-saraf-6a125718/">Linked In</a></li>
-    <li><a href="https://github.com/Rahuketu86">Github</a></li>
-  </ol>
-</div>
-"""}
+GLOBAL_CONTEXT = {}
+# GLOBAL_CONTEXT = {'blog_sidebar': """\
+# <div class="sidebar-module sidebar-module-inset">
+#   <h4>About</h4>
+#   <p>This is blog is dedicated to learning efforts for Data Science</p>
+# </div>
+# <div class="sidebar-module">
+#   <h4>Links</h4>
+#   <ol class="list-unstyled">
+#     <li><a href="https://twitter.com/rahuketu86">@rahuketu86</a></li>
+#     <li><a href="https://www.linkedin.com/in/rahul-saraf-6a125718/">Linked In</a></li>
+#     <li><a href="https://github.com/Rahuketu86">Github</a></li>
+#   </ol>
+# </div>
+# """}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
