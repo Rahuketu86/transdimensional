@@ -219,12 +219,14 @@ POSTS = (
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.org", "posts", "post.tmpl")
 )
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
     ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.org", "pages", "page.tmpl")
 )
 
 
@@ -298,6 +300,7 @@ COMPILERS = {
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
     "php": ('.php',),
+    "orgmode":('.org',)
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -912,18 +915,18 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+# LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+LICENSE = """
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}        {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1023,21 +1026,21 @@ PRETTY_URLS = True
 
 # If you want support for the $.$ syntax (which may conflict with running
 # text!), just use this config:
-# MATHJAX_CONFIG = """
-# <script type="text/x-mathjax-config">
-# MathJax.Hub.Config({
-#     tex2jax: {
-#         inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
-#         displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
-#         processEscapes: true
-#     },
-#     displayAlign: 'center', // Change this to 'left' if you want left-aligned equations.
-#     "HTML-CSS": {
-#         styles: {'.MathJax_Display': {"margin": 0}}
-#     }
-# });
-# </script>
-# """
+MATHJAX_CONFIG = """
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'center', // Change this to 'left' if you want left-aligned equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script>
+"""
 
 # Want to use KaTeX instead of MathJax? While KaTeX may not support every
 # feature yet, it's faster and the output looks better.
@@ -1059,7 +1062,7 @@ PRETTY_URLS = True
 # IPYNB_CONFIG = {}
 # With the following example configuration you can use a custom jinja template
 # called `toggle.tpl` which has to be located in your site/blog main folder:
-# IPYNB_CONFIG = {'Exporter':{'template_file': 'toggle'}}
+IPYNB_CONFIG = {'Exporter':{'template_file': 'toggle'}}
 
 # What Markdown extensions to enable?
 # You will also get gist, nikola and podcast because those are
@@ -1194,7 +1197,17 @@ SEARCH_FORM = """
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-# EXTRA_HEAD_DATA = ""
+EXTRA_HEAD_DATA = """
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19744114-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-19744114-2');
+</script>
+"""
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
@@ -1345,11 +1358,9 @@ GLOBAL_CONTEXT = {'blog_sidebar': """\
 <div class="sidebar-module">
   <h4>Links</h4>
   <ol class="list-unstyled">
-    <li><a href="http://getbootstrap.com/examples/blog/">Bootstrap Blog Theme</a></li>
-    <li><a href="https://getnikola.com/">Nikola</a></li>
-    <li><a href="https://twitter.com/mdo">@mdo</a></li>
-    <li><a href="https://twitter.com/Kwpolska">@Kwpolska</a></li>
-    <li><a href="https://twitter.com/GetNikola">@GetNikola</a></li>
+    <li><a href="https://twitter.com/rahuketu86">@rahuketu86</a></li>
+    <li><a href="https://www.linkedin.com/in/rahul-saraf-6a125718/">Linked In</a></li>
+    <li><a href="https://github.com/Rahuketu86">Github</a></li>
   </ol>
 </div>
 """}
