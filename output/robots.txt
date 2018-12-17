@@ -1,4 +1,0 @@
-Sitemap: https://transdimensional.netlify.com/sitemapindex.xml
-
-User-Agent: *
-Host: transdimensional.netlify.com
