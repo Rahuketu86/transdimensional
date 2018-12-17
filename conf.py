@@ -1238,7 +1238,7 @@ EXTRA_HEAD_DATA = """
 # FILE_METADATA_REGEXP = None
 
 # Should titles fetched from file metadata be unslugified (made prettier?)
-# FILE_METADATA_UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # If enabled, extract metadata from docinfo fields in reST documents.
 # If your text files start with a level 1 heading, it will be treated as the
