@@ -6,7 +6,7 @@ __pycache__
 
 # C extensions
 *.so
-
+.doit.*
 # Distribution / packaging
 .Python
 build/
@@ -102,8 +102,4 @@ venv.bak/
 /site
 
 # mypy
-<<<<<<< HEAD
 .mypy_cache/
-=======
-.mypy_cache/
->>>>>>> origin/master
