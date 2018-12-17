@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.doit.*
 *.py[cod]
 *$py.class
 
@@ -101,8 +102,4 @@ venv.bak/
 /site
 
 # mypy
-<<<<<<< HEAD
 .mypy_cache/
-=======
-.mypy_cache/
->>>>>>> origin/master
