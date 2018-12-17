@@ -8,7 +8,9 @@
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../rss.xml">
 <link rel="canonical" href="https://transdimensional.netlify.com/listings/hello.py.html">
 <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script><script src="https://cdn.plot.ly/plotly-latest.min.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-19744114-2"></script><script>
   window.dataLayer = window.dataLayer || [];
@@ -23,18 +25,39 @@
 
 <!-- Menubar -->
 
-<div class="blog-masthead">
-    <div class="container">
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
 <!-- This keeps the margins nice -->
-        <nav class="blog-nav" role="navigation"><a href="../index.html" class="blog-nav-item">Home</a>
-            <a href="../archive/" class="blog-nav-item">Archive</a>
-            <a href="../categories/" class="blog-nav-item">Tags</a>
-            <a href="../rss.xml" class="blog-nav-item">RSS feed</a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://transdimensional.netlify.com/">
 
-            
+                <span id="blog-title">Transdimensional</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../index.html">Home</a>
+                </li>
+<li>
+<a href="../archive/">Archive</a>
+                </li>
+<li>
+<a href="../categories/">Tags</a>
+                </li>
+<li>
+<a href="../rss.xml">RSS feed</a>
+
                 
-<!-- Google custom search -->
-<form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+            </li>
+</ul>
+<!-- Google custom search --><form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
 <div class="form-group">
 <input type="text" name="q" class="form-control" placeholder="Search">
 </div>
@@ -46,32 +69,21 @@
 <!-- End of custom search -->
 
 
-    <li>
+            <ul class="nav navbar-nav navbar-right">
+<li>
     <a href="hello.py" id="sourcelink">Source</a>
     </li>
                 
-            
-        </nav>
+            </ul>
 </div>
+<!-- /.navbar-collapse -->
+    </div>
 <!-- /.container -->
-</div>
-<!-- End of Menubar -->
-
-<div class="container" id="content" role="main">
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
     <div class="body-content">
-        <div class="blog-header">
-            <h1 class="blog-title">
-                <a href="https://transdimensional.netlify.com/">
-
-                    <span id="blog-title">Transdimensional</span>
-                </a>
-            </h1>
-            <p class="lead blog-description">My Data Science Blog</p>
-            
-        </div>
         <!--Body content-->
         <div class="row">
-            <div class="col-sm-8 blog-main">
+            
 <nav class="breadcrumbs"><ul class="breadcrumb">
 <li><a href=".">listings</a></li>
                 <li>hello.py</li>
@@ -106,20 +118,18 @@
 </pre></td>
 </tr></table>
 </div>
-            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-                
-            </div>
         <!--End of body content-->
-        </div>
-    </div>
-</div>
 
-<footer class="blog-footer" id="footer">
-    Contents © 2018         <a href="mailto:rahuketu86@gmail.com">Rahuketu86</a>        
+        <footer id="footer">
+            Contents © 2018         <a href="mailto:rahuketu86@gmail.com">Rahuketu86</a>        
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
-    
-</footer><script src="../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+            
+        </footer>
+</div>
+</div>
+
+            <script src="../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script>
