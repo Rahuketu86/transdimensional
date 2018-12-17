@@ -7,15 +7,66 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://transdimensional.netlify.com/</loc>
+<<<<<<< HEAD
   <lastmod>2018-12-16T04:56:00Z</lastmod>
+=======
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+>>>>>>> release/0.2.1
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/archive.html</loc>
   <lastmod>2018-12-16T04:56:00Z</lastmod>
+<<<<<<< HEAD
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/categories/</loc>
   <lastmod>2018-12-16T04:56:00Z</lastmod>
+=======
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/archive/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/bokeh/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/equation/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/holoviews/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/introduction/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/jupyter/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/mpld3/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/notebook/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/plotly/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/categories/plotting/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+>>>>>>> release/0.2.1
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/galleries/</loc>
@@ -23,6 +74,7 @@
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/listings/</loc>
+<<<<<<< HEAD
   <lastmod>2018-12-16T04:56:00Z</lastmod>
  </url>
  <url>
@@ -48,13 +100,41 @@
  <url>
   <loc>https://transdimensional.netlify.com/pages/creating-a-theme/</loc>
   <lastmod>2018-12-16T04:56:00Z</lastmod>
+=======
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/listings/__pycache__/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/listings/hello.py.html</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/about-nikola/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/bootstrap-demo/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/charts/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/creating-a-theme/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+>>>>>>> release/0.2.1
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2018-12-15T17:37:00Z</lastmod>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/extending/</loc>
+<<<<<<< HEAD
   <lastmod>2018-12-16T04:56:00Z</lastmod>
  </url>
  <url>
@@ -88,5 +168,48 @@
  <url>
   <loc>https://transdimensional.netlify.com/pages/theming/</loc>
   <lastmod>2018-12-16T04:56:00Z</lastmod>
+=======
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/handbook/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/internals/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/listings-demo/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/path-handlers/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/quickref/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/quickstart/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/social_buttons/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/pages/theming/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/posts/hello-jupyter-notebook-blogging/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://transdimensional.netlify.com/posts/jupyter-blogging-plotly/</loc>
+  <lastmod>2018-12-17T10:10:00Z</lastmod>
+>>>>>>> release/0.2.1
  </url>
 </urlset>
