@@ -1170,19 +1170,32 @@ SIDEBAR_MAXIMUM_POST_COUNT = 2
 # """ % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
+# SEARCH_FORM = """
+# <!-- Google custom search -->
+# <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+# <div class="form-group">
+# <input type="text" name="q" class="form-control" placeholder="Search">
+# </div>
+# <button type="submit" class="btn btn-primary">
+# 	<span class="glyphicon glyphicon-search"></span>
+# </button>
+# <input type="hidden" name="sitesearch" value="%s">
+# </form>
+# <!-- End of custom search -->
+# """ % SITE_URL
+
 SEARCH_FORM = """
-<!-- Google custom search -->
-<form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
-<div class="form-group">
-<input type="text" name="q" class="form-control" placeholder="Search">
-</div>
-<button type="submit" class="btn btn-primary">
-	<span class="glyphicon glyphicon-search"></span>
-</button>
-<input type="hidden" name="sitesearch" value="%s">
+<form class="navbar-form navbar-left" action="/search/" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
 </form>
-<!-- End of custom search -->
-""" % SITE_URL
+"""
+
+# EXTRA_HEAD_DATA = """
+
+# """
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
@@ -1202,6 +1215,8 @@ USE_CDN = False
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
+
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
