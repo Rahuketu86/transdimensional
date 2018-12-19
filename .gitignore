@@ -1,6 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-.doit.*
+.doit.db.*
+.doit.db.dat
+.doit.db.bak
+.doit.db.dir
 *.py[cod]
 *$py.class
 
