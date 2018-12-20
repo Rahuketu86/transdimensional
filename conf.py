@@ -316,6 +316,9 @@ COMPILERS = {
     # "pandoc": ('.rst', '.md', '.txt'),
 }
 
+ORG_REGEX_REPLACE = [(r'src\=\"(../)*', 'src="/')]
+
+ORG_PRETTY_URL_ADJUST = True
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
 # ONE_FILE_POSTS = True
