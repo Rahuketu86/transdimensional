@@ -137,6 +137,13 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Home"),
+        (
+            (
+             ("/pages/about-me/", "About"),
+             ("https://www.linkedin.com/in/rahul-saraf-6a125718/", "Linked In"),
+            ),
+            "About Me"
+        ),
         ("/archive/", "Archive"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
