@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Transdimensional (Posts about orgmode)</title><link>https://transdimensional.netlify.com/</link><description></description><atom:link href="https://transdimensional.netlify.com/categories/orgmode.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:rahuketu86@gmail.com"&gt;Rahuketu86&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
+&lt;img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 20 Dec 2018 14:22:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Emacs Configuration</title><link>https://transdimensional.netlify.com/posts/emacs-configuration/</link><dc:creator>Rahuketu86</dc:creator><description>&lt;div&gt;&lt;p&gt;
+This post contains sample configuration for my emacs in an org file 
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://transdimensional.netlify.com/posts/emacs-configuration/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>emacs</category><category>orgmode</category><category>programming</category><guid>https://transdimensional.netlify.com/posts/emacs-configuration/</guid><pubDate>Thu, 20 Dec 2018 13:10:07 GMT</pubDate></item></channel></rss>
