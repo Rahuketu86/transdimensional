@@ -9,10 +9,14 @@
 .. type: text
 
 #+END_COMMENT
+#+OPTIONS: toc:nil  
+
 
 This post contains sample configuration for my emacs in an org file 
 {{{TEASER_END}}}
 
+
+#+TOC: headlines 3
 
 * Emacs init.el
   #+BEGIN_EXAMPLE
