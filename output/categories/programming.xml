@@ -3,7 +3,15 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
+<<<<<<< HEAD
 src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 20 Dec 2018 14:32:34 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Emacs Configuration</title><link>https://transdimensional.netlify.com/posts/emacs-configuration/</link><dc:creator>Rahuketu86</dc:creator><description>&lt;div&gt;&lt;p&gt;
+=======
+<<<<<<< Updated upstream
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 20 Dec 2018 14:22:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Emacs Configuration</title><link>https://transdimensional.netlify.com/posts/emacs-configuration/</link><dc:creator>Rahuketu86</dc:creator><description>&lt;div&gt;&lt;p&gt;
+=======
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 20 Dec 2018 15:25:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Emacs Configuration</title><link>https://transdimensional.netlify.com/posts/emacs-configuration/</link><dc:creator>Rahuketu86</dc:creator><description>&lt;div&gt;&lt;p&gt;
+>>>>>>> Stashed changes
+>>>>>>> develop
 This post contains sample configuration for my emacs in an org file 
 &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://transdimensional.netlify.com/posts/emacs-configuration/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>emacs</category><category>orgmode</category><category>programming</category><guid>https://transdimensional.netlify.com/posts/emacs-configuration/</guid><pubDate>Thu, 20 Dec 2018 13:10:07 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://transdimensional.netlify.com/posts/emacs-configuration/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>emacs</category><category>orgmode</category><category>programming</category><guid>https://transdimensional.netlify.com/posts/emacs-configuration/</guid><pubDate>Thu, 20 Dec 2018 13:10:07 GMT</pubDate></item></channel></rss>

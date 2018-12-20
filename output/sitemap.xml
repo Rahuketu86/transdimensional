@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://transdimensional.netlify.com/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/archive/</loc>
@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/categories/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/categories/bokeh/</loc>
@@ -91,11 +91,11 @@
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/charts/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/creating-a-theme/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/dr-nikolas-vendetta/</loc>
@@ -103,11 +103,11 @@
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/extending/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/handbook/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/internals/</loc>
@@ -115,7 +115,7 @@
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/listings-demo/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/path-handlers/</loc>
@@ -131,19 +131,19 @@
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/social_buttons/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/pages/theming/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/posts/emacs-configuration/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/posts/hello-jupyter-notebook-blogging/</loc>
-  <lastmod>2018-12-20T14:32:00Z</lastmod>
+  <lastmod>2018-12-20T16:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://transdimensional.netlify.com/posts/jupyter-blogging-plotly/</loc>
