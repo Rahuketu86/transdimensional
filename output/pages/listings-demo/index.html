@@ -75,12 +75,16 @@ if __name__ ==">
                 
             </li>
 </ul>
-<form class="navbar-form navbar-left" action="../../search/" role="search">
-    <div class="form-group">
-        <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
+<!-- Google custom search --><form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" name="q" class="form-control" placeholder="Search">
 </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+<button type="submit" class="btn btn-primary">
+	<span class="glyphicon glyphicon-search"></span>
+</button>
+<input type="hidden" name="sitesearch" value="https://transdimensional.netlify.com/">
 </form>
+<!-- End of custom search -->
 
 
             <ul class="nav navbar-nav navbar-right">
@@ -105,18 +109,18 @@ if __name__ ==">
     <div>
 <p>Nikola intends to let you show code easily via listings:</p>
 <p><a class="reference external" href="../../listings/hello.py.html">hello.py</a>  <a class="reference external" href="../../listings/hello.py">(Source)</a></p>
-<pre class="code python"><a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-1"></a><span class="ch">#!/usr/bin/python</span>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-2"></a>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-3"></a><span class="kn">import</span> <span class="nn">sys</span>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-4"></a>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-5"></a>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-6"></a><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'world'</span><span class="p">):</span>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-7"></a>    <span class="n">greeting</span> <span class="o">=</span> <span class="s2">"hello "</span> <span class="o">+</span> <span class="n">name</span>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-8"></a>    <span class="k">print</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-9"></a>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-10"></a>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-11"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
-<a name="rest_code_a9a9047ca46e4c898e42e93126c5544a-12"></a>    <span class="n">hello</span><span class="p">(</span><span class="o">*</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+<pre class="code python"><a name="rest_code_105adc6b79324496b370fa53dbf96f47-1"></a><span class="ch">#!/usr/bin/python</span>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-2"></a>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-3"></a><span class="kn">import</span> <span class="nn">sys</span>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-4"></a>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-5"></a>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-6"></a><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'world'</span><span class="p">):</span>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-7"></a>    <span class="n">greeting</span> <span class="o">=</span> <span class="s2">"hello "</span> <span class="o">+</span> <span class="n">name</span>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-8"></a>    <span class="k">print</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-9"></a>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-10"></a>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-11"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+<a name="rest_code_105adc6b79324496b370fa53dbf96f47-12"></a>    <span class="n">hello</span><span class="p">(</span><span class="o">*</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
 </pre>
 </div>
     </div>
@@ -134,7 +138,24 @@ if __name__ ==">
 </div>
 </div>
 
-            <script src="../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+            <script src="../../assets/js/all-nocdn.js"></script><!-- Social buttons --><div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script><!-- End of social buttons --><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script>
