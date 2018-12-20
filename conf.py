@@ -1090,19 +1090,19 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-# SOCIAL_BUTTONS_CODE = """
-# <!-- Social buttons -->
-# <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-# <a class="addthis_button_more">Share</a>
-# <ul><li><a class="addthis_button_facebook"></a>
-# <li><a class="addthis_button_google_plusone_share"></a>
-# <li><a class="addthis_button_linkedin"></a>
-# <li><a class="addthis_button_twitter"></a>
-# </ul>
-# </div>
-# <script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-# <!-- End of social buttons -->
-# """
+SOCIAL_BUTTONS_CODE = """
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul><li><a class="addthis_button_facebook"></a>
+<li><a class="addthis_button_google_plusone_share"></a>
+<li><a class="addthis_button_linkedin"></a>
+<li><a class="addthis_button_twitter"></a>
+</ul>
+</div>
+<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+"""
 
 # Show link to source for the posts?
 # SHOW_SOURCELINK = True
@@ -1184,6 +1184,19 @@ SEARCH_FORM = """
 <!-- End of custom search -->
 """ % SITE_URL
 
+# SEARCH_FORM = """
+# <form class="navbar-form navbar-left" action="/search/" role="search">
+#     <div class="form-group">
+#         <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
+#     </div>
+#     <button type="submit" class="btn btn-default">Submit</button>
+# </form>
+# """
+
+# EXTRA_HEAD_DATA = """
+
+# """
+
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
 # If this is True, jQuery and html5shiv are served from the Google CDN and
@@ -1202,6 +1215,8 @@ USE_CDN = False
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
+
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>

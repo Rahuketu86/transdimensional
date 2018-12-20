@@ -1,8 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-__pycache__/*
-*__pycache__*
-.doit.*
+.doit.db.*
+.doit.db.dat
+.doit.db.bak
+.doit.db.dir
 *.py[cod]
 *$py.class
 
@@ -12,6 +13,7 @@ __pycache__/*
 # Distribution / packaging
 .Python
 build/
+cache/
 develop-eggs/
 dist/
 downloads/
