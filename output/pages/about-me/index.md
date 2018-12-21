@@ -34,7 +34,7 @@ Year                                  | Company
 2015–2018                             |   Digital Oilfield Consultant, IPCOS
 2015–2018                             |   Business Analyst, Nibras RTO, PDO, Oman 
 2014 – 2015                           |   Senior Reservoir Engineer, AGR, Stavanger
-2013 – 2014 	                      |   Senior Reservoir Engineer, ZIEBEL, Stavanger                                          2012 – 2013 	                      |   Reservoir Engineer, ZIEBEL, Stavanger, Norway
+2013 – 2014 	                      |   Senior Reservoir Engineer, ZIEBEL, Stavanger
 2010 – 2012 	                      |   Reservoir Engineer, MEPO-Reservoir Development Group and JIPs (Joint Industry Projects), SPTGROUP, Oslo Norway
 2010 	                              |   Reservoir Engineer, FOROIL, Paris, France
 2009 	                              |   Reservoir Engineer (Internship), Field Reserve Development, CSTJF, TOTAL, Pau, France 2007 	                              |   Research Analyst (Internship), SUNY ESF, Environmental,                                                                         Science and Forestry College, Syracuse, New York, USA
