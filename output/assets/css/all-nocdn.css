@@ -8734,7 +8734,7 @@ h2 {
     font-weight: 400;
     position: absolute;
     bottom: 10px;
-    padding-left: 35px;
+    padding-left: 15px;
 }
 
 #hamburger {
@@ -8952,9 +8952,9 @@ span.vcard img.img-circle {
     }
 }
 
-.search-form {
+/* .search-form {
     z-index: 10;
-}
+} */
 
 .btn-footer {
     position: absolute;

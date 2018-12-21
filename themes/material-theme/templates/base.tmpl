@@ -16,9 +16,6 @@
     <div class="container-fluid">
         <div class="row">
           <div class="col-xs-3">
-                {% if search_form %}
-                    {{ search_form }}
-                {% endif %}
             <h1 class="title-blog">
                 <a  href="{{ abs_link(_link("root", None, lang)) }}">
                     {% if logo_url %}
@@ -29,6 +26,9 @@
                     {% endif %}
                     </a>
             </h1>
+            {% if search_form %}
+                {{ search_form }}
+            {% endif %}
           </div>
           <div class="col-xs-9">
             <a id="hamburger" class="btn btn-raised" href="javascript:void(0);" onclick="menuToggle();">&#9776;</a>
